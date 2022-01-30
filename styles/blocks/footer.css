@@ -1,0 +1,47 @@
+.footer {
+  height: 120px;
+}
+.footer .logo {
+  display: block;
+  position: absolute;
+  top: 33px;
+  left: 0px;
+}
+
+.footer .menu {
+  position: absolute;
+  left: 287px;
+  top: 37px;
+}
+.social {
+  position: absolute;
+  top: 31px;
+  right: 265px;
+}
+.social__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+.social__item:last-child {
+  margin-right: 0px;
+}
+.social__link {
+  display: block;
+  width: 36px;
+  height: 36px;
+}
+.footer .contacts {
+  display: block;
+  position: absolute;
+  top: 29px;
+  right: 0px;
+  font-style: normal;
+  text-align: right;
+}
+.footer .contacts__description {
+  font-size: 11px;
+}
+.footer__content {
+  border-top: 1px solid #fff;
+}

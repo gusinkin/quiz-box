@@ -1,0 +1,24 @@
+.intro__title {
+  width: 650px;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 19px;
+}
+.intro__text {
+  font-size: 21px;
+  margin-bottom: 89px;
+}
+.button {
+  background: #8f00ff;
+  border-radius: 5px;
+  padding: 18px 40px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.button:hover {
+  background: #741bba;
+}
+.intro {
+  margin-bottom: 207px;
+}
