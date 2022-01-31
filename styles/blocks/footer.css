@@ -4,18 +4,18 @@
 .footer .logo {
   display: block;
   position: absolute;
-  top: 33px;
+  top: 52px;
   left: 0px;
 }
 
 .footer .menu {
   position: absolute;
   left: 287px;
-  top: 37px;
+  top: 56px;
 }
 .social {
   position: absolute;
-  top: 31px;
+  top: 50px;
   right: 265px;
 }
 .social__item {
@@ -34,7 +34,7 @@
 .footer .contacts {
   display: block;
   position: absolute;
-  top: 29px;
+  top: 48px;
   right: 0px;
   font-style: normal;
   text-align: right;

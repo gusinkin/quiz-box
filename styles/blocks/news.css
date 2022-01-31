@@ -24,13 +24,14 @@
 .news__feature-img,
 .news__feature-text {
   display: inline-block;
+  vertical-align: middle;
 }
 .news__item {
   min-height: 450px;
   background: #fff;
   border-radius: 5px;
   width: 362px;
-  margin-right: 23px;
+  margin-right: 22px;
 }
 .news__item:last-child {
   margin-right: 0;
@@ -46,13 +47,13 @@
   color: #000;
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 13px;
+  margin-bottom: 23px;
 }
 .news__features {
   margin-bottom: 27px;
 }
-.news__feature {
-  margin-right: 20px;
+.news__feature:first-child {
+  margin-right: 55px;
 }
 .news__feature-text {
   margin-left: 5px;
@@ -61,7 +62,7 @@
 .news__text {
   color: #303030;
   font-size: 14px;
-  margin-bottom: 42px;
+  margin-bottom: 39px;
 }
 .button--light {
   padding: 18px 31px;
