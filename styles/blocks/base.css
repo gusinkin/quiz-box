@@ -62,7 +62,7 @@ img {
   max-width: 1140px;
   position: relative;
 }
-.main-page-wrapper {
+.wrapper--main {
   background: url(../../img/nbgB77C1HAg\ 1.png) center top no-repeat,
     url(../../img/56278948-888x544\ 2.png) center bottom no-repeat;
 }
