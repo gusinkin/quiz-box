@@ -1,50 +1,50 @@
-.header {
-  height: 100px;
-  margin-bottom: 107px;
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 29px;
+}
+
+.header__col {
+  display: flex;
+  align-items: center;
 }
 
 .header .logo {
-  display: block;
-  position: absolute;
-  top: 33px;
-  left: 0px;
+  flex-shrink: 0;
+  margin-right: 262px;
 }
-.header .menu {
-  position: absolute;
-  top: 37px;
-  left: 419px;
+.menu__list {
+  display: flex;
+  align-items: center;
 }
 .menu__item {
-  display: inline-block;
-  margin-right: 63px;
+  margin-right: 67px;
 }
 .menu__item:last-child {
-  margin-right: 0;
-}
-.menu__link {
-  font-size: 16px;
+  margin-right: 0px;
 }
 .menu__link:hover {
   color: #8f00ff;
 }
-.header .contacts {
-  display: block;
-  position: absolute;
-  top: 29px;
-  right: 0px;
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
   font-style: normal;
-  text-align: right;
+  height: 100%;
 }
 .contacts__phone {
-  display: block;
   font-size: 26px;
   text-decoration: none;
   line-height: 30px;
-  margin-bottom: -4px;
 }
 .contacts__schedule {
   font-size: 13px;
   text-decoration: underline;
-  line-height: 20px;
-  margin-right: 2px;
+  line-height: 13px;
+}
+.header {
+  margin-bottom: 136px;
 }
