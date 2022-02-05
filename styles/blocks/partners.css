@@ -1,0 +1,27 @@
+.partners {
+  background: #f4f5f5;
+  padding: 95px 0px 80px;
+}
+.partners__title {
+  color: #1a1b1e;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partners__link {
+  display: flex;
+  width: 285px;
+  height: 126px;
+  align-items: center;
+  justify-content: center;
+  filter: grayscale(100%);
+}
+
+.partners__link:hover {
+  filter: grayscale(0%);
+}

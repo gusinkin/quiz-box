@@ -66,3 +66,25 @@ img {
   max-width: 1140px;
   position: relative;
 }
+.button {
+  background: #8f00ff;
+  border-radius: 5px;
+  padding: 18px 40px;
+  font-size: 14px;
+  text-transform: uppercase;
+  min-width: 165px;
+}
+.button:hover {
+  background: #741bba;
+}
+.button--light {
+  padding: 17px 31px;
+  border: 1px solid #8f00ff;
+  border-color: #8f00ff;
+  color: #8f00ff;
+  background: #fff;
+}
+.button--light:hover {
+  background: #8f00ff;
+  color: #fff;
+}

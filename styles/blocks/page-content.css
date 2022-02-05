@@ -1,0 +1,41 @@
+.page-content {
+  background: #fff;
+  color: #303030;
+  padding: 40px 0px 56px;
+}
+.games {
+  margin: 8px 0px 64px;
+}
+.game {
+  display: flex;
+  padding: 50px 0px 0px 0px;
+}
+.game:hover {
+  background: #f2f2f2;
+}
+.game:hover .game__button {
+  background: #8f00ff;
+  color: #fff;
+}
+.game__img {
+  width: 44%;
+  margin-right: 1%;
+}
+.game__content {
+  flex: 1;
+}
+.game__title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 11px;
+  margin-bottom: 30px;
+}
+.game__description {
+  line-height: 27px;
+  margin-bottom: 33px;
+}
+.game__button {
+  width: 168px;
+  text-align: center;
+}

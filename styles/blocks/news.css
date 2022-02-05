@@ -58,17 +58,7 @@
   font-size: 14px;
   margin-bottom: 42px;
 }
-.button--light {
-  padding: 17px 31px;
-  border: 1px solid #8f00ff;
-  border-color: #8f00ff;
-  color: #8f00ff;
-  background: #fff;
-}
-.button--light:hover {
-  background: #8f00ff;
-  color: #fff;
-}
+
 .news {
   margin-bottom: 125px;
 }

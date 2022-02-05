@@ -15,17 +15,7 @@
   font-size: 21px;
   margin-bottom: 73px;
 }
-.button {
-  background: #8f00ff;
-  border-radius: 5px;
-  padding: 18px 40px;
-  font-size: 14px;
-  text-transform: uppercase;
-  min-width: 165px;
-}
-.button:hover {
-  background: #741bba;
-}
+
 .intro {
   margin-bottom: 191px;
 }

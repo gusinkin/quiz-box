@@ -9,6 +9,10 @@
   padding-bottom: 43px;
   border-top: 1px solid #fff;
 }
+.wrapper--games .footer__content {
+  padding-top: 53px;
+  border-top: none;
+}
 .footer__col {
   display: flex;
   align-items: center;
