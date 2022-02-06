@@ -30,11 +30,40 @@
 }
 .social__item {
   margin-right: 10px;
+  display: inline-block;
 }
 .social__item:last-child {
   margin-right: 0px;
 }
-
+.social__link {
+  display: block;
+  width: 36px;
+  height: 36px;
+}
+.social__item--tg .social__link {
+  background: url(../../img/telegram.png);
+}
+.social__item--tg .social__link:hover {
+  background: url(../../img/t-h.png);
+}
+.social__item--vk .social__link {
+  background: url(../../img/vk.png);
+}
+.social__item--vk .social__link:hover {
+  background: url(../../img/vk-h.png);
+}
+.social__item--fb .social__link {
+  background: url(../../img/f.png);
+}
+.social__item--fb .social__link:hover {
+  background: url(../../img/f2-h.png);
+}
+.social__item--in .social__link {
+  background: url(../../img/in.png);
+}
+.social__item--in .social__link:hover {
+  background: url(../../img/in-h.png);
+}
 .contacts__description {
   font-size: 11px;
   line-height: 20px;

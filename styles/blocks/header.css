@@ -5,14 +5,9 @@
   padding-top: 29px;
 }
 
-.header__col {
-  display: flex;
-  align-items: center;
-}
-
 .header .logo {
   flex-shrink: 0;
-  margin-right: 262px;
+  margin-right: 34px;
 }
 .menu__list {
   display: flex;

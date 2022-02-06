@@ -71,6 +71,7 @@ img {
   border-radius: 5px;
   padding: 18px 40px;
   font-size: 14px;
+  font-weight: bold;
   text-transform: uppercase;
   min-width: 165px;
 }
