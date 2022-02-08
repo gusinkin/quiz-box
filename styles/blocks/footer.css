@@ -37,32 +37,62 @@
 }
 .social__link {
   display: block;
+  position: relative;
   width: 36px;
   height: 36px;
 }
-.social__item--tg .social__link {
-  background: url(../../img/telegram.png);
+.social__item .social__link::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  transition: 0.4s;
 }
-.social__item--tg .social__link:hover {
-  background: url(../../img/t-h.png);
+.social__item .social__link::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  opacity: 0;
+  transition: 0.4s;
 }
-.social__item--vk .social__link {
-  background: url(../../img/vk.png);
+.social__item .social__link:hover::after {
+  opacity: 1;
 }
-.social__item--vk .social__link:hover {
-  background: url(../../img/vk-h.png);
+.social__item .social__link:hover::before {
+  opacity: 0;
 }
-.social__item--fb .social__link {
-  background: url(../../img/f.png);
+.social__item--tg .social__link::before {
+  background: url('../../img/social_sprites.png') -10px -10px;
 }
-.social__item--fb .social__link:hover {
-  background: url(../../img/f2-h.png);
+.social__item--tg .social__link::after {
+  background: url('../../img/social_sprites.png') -66px -10px;
 }
-.social__item--in .social__link {
-  background: url(../../img/in.png);
+.social__item--vk .social__link::before {
+  background: url('../../img/social_sprites.png') -10px -66px;
 }
-.social__item--in .social__link:hover {
-  background: url(../../img/in-h.png);
+.social__item--vk .social__link::after {
+  background: url('../../img/social_sprites.png') -66px -66px;
+}
+.social__item--fb .social__link::before {
+  background: url('../../img/social_sprites.png') -122px -10px;
+}
+.social__item--fb .social__link::after {
+  background: url('../../img/social_sprites.png') -122px -66px;
+}
+.social__item--in .social__link::before {
+  background: url('../../img/social_sprites.png') -10px -122px;
+}
+.social__item--in .social__link::after {
+  background: url('../../img/social_sprites.png') -66px -122px;
 }
 .contacts__description {
   font-size: 11px;

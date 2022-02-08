@@ -24,8 +24,11 @@
   display: flex;
   flex-direction: column;
   background: #fff;
-  border-radius: 5px;
+  border-radius: 7px 7px 5px 5px;
   width: 31.75%;
+}
+.news__img {
+  border-radius: 5px 5px 0px 0px;
 }
 
 .news__content {

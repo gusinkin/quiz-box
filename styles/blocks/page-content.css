@@ -11,24 +11,24 @@
   padding: 49px 0px 0px 0px;
 }
 
-.game__img {
+.games__img {
   width: 44%;
   margin-right: 1%;
 }
-.game__content {
+.games__content {
   flex: 1;
 }
-.game__title {
+.games__title {
   font-size: 36px;
   font-weight: bold;
   color: #000;
   margin-top: 11px;
   margin-bottom: 30px;
 }
-.game__description {
+.games__description {
   line-height: 27px;
   margin-bottom: 49px;
 }
-.game__button {
+.games__button {
   padding: 17px 39px;
 }
