@@ -51,13 +51,22 @@ img {
 .wrapper {
   overflow: hidden;
   min-height: 100%;
-
   display: flex;
   flex-direction: column;
 }
 .wrapper--main {
-  background: url(../../img/nbgB77C1HAg\ 1.png) center top no-repeat,
-    url(../../img/56278948-888x544\ 2.png) center bottom no-repeat;
+  position: relative;
+}
+.wrapper--main::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../../img/main/bg-1.png) center top no-repeat,
+    url(../../img/main/bg-2.png) center bottom 140px no-repeat;
+  filter: grayscale(100%);
 }
 .container {
   margin: 0 auto;
@@ -68,12 +77,15 @@ img {
 }
 .button {
   background: #8f00ff;
+  color: #fff;
   border-radius: 5px;
   padding: 18px 40px;
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
   min-width: 165px;
+  text-align: center;
+  transition: 0.4s;
 }
 .button:hover {
   background: #741bba;
@@ -81,11 +93,20 @@ img {
 .button--light {
   padding: 17px 31px;
   border: 1px solid #8f00ff;
-  border-color: #8f00ff;
   color: #8f00ff;
   background: #fff;
 }
 .button--light:hover {
   background: #8f00ff;
   color: #fff;
+}
+.button--transparent {
+  background: transparent;
+  border: 1px solid #fff;
+}
+.button--gray {
+  background: #8e8e8e;
+}
+.button--gray:hover {
+  background: #2b2b2b;
 }

@@ -22,6 +22,7 @@
   border-radius: 50%;
   margin-right: 2px;
   line-height: 32px;
+  transition: 0.4s;
 }
 .pagination__item--active .pagination__link {
   background: #8f008f;

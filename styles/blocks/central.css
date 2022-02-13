@@ -1,0 +1,50 @@
+.wrapper--hello {
+  background: url(../../img/Hello_bg.jpg) center center no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.central {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: bounce 1.2s;
+  animation-delay: 1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+.central__logo {
+  margin-bottom: 37px;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-35px);
+    animation-timing-function: cubic-bezier(0.74, 0.13, 0.89, 0.2);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  65% {
+    transform: translateY(-15px);
+    animation-timing-function: cubic-bezier(0.74, 0.13, 0.89, 0.2);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 1;
+  }
+}

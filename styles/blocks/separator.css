@@ -1,0 +1,16 @@
+.separator {
+  background: #17191c url(../../img/reviews/19629.png) right 4% top 7% no-repeat;
+  background-size: 47%;
+  min-height: 363px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.separator__content {
+  max-width: 40%;
+}
+.separator__title {
+  font-size: 48px;
+  font-weight: bold;
+}

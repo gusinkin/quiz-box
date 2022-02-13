@@ -7,11 +7,15 @@
   justify-content: space-between;
   padding-top: 43px;
   padding-bottom: 43px;
+}
+.wrapper--main .footer__content {
   border-top: 1px solid #fff;
 }
 .wrapper--games .footer__content {
   padding-top: 53px;
-  border-top: none;
+}
+.wrapper--reviews .footer__content {
+  padding-top: 48px;
 }
 .footer__col {
   display: flex;

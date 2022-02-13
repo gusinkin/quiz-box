@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/normalize.css" />
@@ -19,13 +19,13 @@
       <section class="top-line">
         <header class="header">
           <div class="container header__container">
-            <a href="./index.html" class="logo">
+            <a href="./main.html" class="logo">
               <img src="./img/Quiz-box.png" alt="Logo" class="logo__img" />
             </a>
             <nav class="menu">
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a href="./index.html" class="menu__link">Главная</a>
+                  <a href="./main.html" class="menu__link">Главная</a>
                 </li>
                 <li class="menu__item">
                   <a href="./games.html" class="menu__link">Игры</a>
@@ -37,7 +37,16 @@
             </nav>
             <address class="contacts">
               <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-              <div class="contacts__schedule">График работы</div>
+              <div class="contacts__schedule dropdown">
+                <a href="" class="dropdown__link">График работы</a>
+                <div class="dropdown__menu">
+                  <div class="dropdown__triangle"></div>
+                  <ul class="dropdown__list">
+                    <li class="dropdown__item">пн-вс: 09:00 - 20:00</li>
+                    <li class="dropdown__item">Обед: 14:00-14:30</li>
+                  </ul>
+                </div>
+              </div>
             </address>
           </div>
         </header>
@@ -46,7 +55,7 @@
           <nav class="breadcrumbs">
             <ul class="breadcrumbs__list">
               <li class="breadcrumbs__item">
-                <a href="./index.html" class="breadcrumbs__link">Главная</a>
+                <a href="./main.html" class="breadcrumbs__link">Главная</a>
               </li>
               <li class="breadcrumbs__item breadcrumbs__item--active">
                 <a href="./games.html" class="breadcrumbs__link">Услуги</a>
@@ -175,13 +184,13 @@
       <footer class="footer">
         <div class="container footer__content">
           <div class="footer__col">
-            <a href="./index.html" class="logo">
+            <a href="./main.html" class="logo">
               <img src="./img/Quiz-box.png" alt="Logo" class="logo__img" />
             </a>
             <nav class="menu">
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a href="./index.html" class="menu__link">Главная</a>
+                  <a href="./main.html" class="menu__link">Главная</a>
                 </li>
                 <li class="menu__item">
                   <a href="./games.html" class="menu__link">Игры</a>

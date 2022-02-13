@@ -3,7 +3,7 @@
   display: block;
   width: 489px;
   height: 505px;
-  background: url(../../img/kviz_pliz__nizhnii_novgorod_1_qg_large\ 1.png);
+  background: url(../../img/main/kviz_pliz__nizhnii_novgorod_1_qg_large\ 1.png);
   border-radius: 5px;
 }
 .about__construction {
@@ -32,11 +32,6 @@
 }
 .about .title {
   margin-bottom: 37px;
-}
-.button--transparent {
-  background: transparent;
-  border: 1px solid #fff;
-  color: #fff;
 }
 .about {
   margin-bottom: 56px;
