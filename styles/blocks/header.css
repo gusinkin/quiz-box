@@ -60,7 +60,6 @@
   border-radius: 5px;
   padding: 13px 19px;
   line-height: 21px;
-  min-width: 159px;
   top: 1px;
   margin-top: 20px;
   left: -9999px;
@@ -120,6 +119,7 @@
 }
 .dropdown__item {
   color: #1e1f20;
+  white-space: nowrap;
 }
 .dropdown__item:first-child {
   font-weight: bold;

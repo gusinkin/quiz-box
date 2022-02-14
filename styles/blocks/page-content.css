@@ -68,13 +68,18 @@
   font-size: 24px;
   line-height: 42px;
   font-weight: bold;
-  color: #2e77a4;
+  color: #1a1b1e;
   margin-bottom: 7px;
+  transition: 0.3s;
 }
 .reviews__user::after {
   content: url(../../img/reviews/vk.png);
   height: 30px;
   margin-left: 5px;
+}
+.reviews__user:hover {
+  color: #2e77a4;
+  text-decoration: underline;
 }
 .reviews__tags {
   display: flex;
